@@ -1,0 +1,36 @@
+{
+  "name": "capitanodoc",
+  "version": "1.0.0",
+  "description": "Documentation generator for Capitano projects",
+  "main": "build/index.js",
+  "homepage": "https://github.com/resin-io/capitanodoc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/resin-io/capitanodoc.git"
+  },
+  "keywords": [
+    "capitano",
+    "documentation",
+    "resin-cli"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp build"
+  },
+  "author": "Michalis Korakakis <p12kora@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.2.0",
+    "gulp-coffeelint": "^0.5.0",
+    "gulp-mocha": "^2.1.3",
+    "gulp-util": "^3.0.6",
+    "mocha": "^2.2.5",
+    "mochainon": "^1.0.0"
+  },
+  "dependencies": {
+    "ent": "^2.2.0",
+    "lodash": "^3.10.1"
+  }
+}
